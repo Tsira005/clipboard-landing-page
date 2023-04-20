@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.container {
+  padding: 0 32px;
+  margin: 0 auto;
+}
+.logo {
+  margin-bottom: 75px;
+}
+.header-br {
+  display: none;
+}
+.header-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 120px 0 160px 0;
+  text-align: center;
+}
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.75px;
+  color: #4c545c;
+  margin-bottom: 16px;
+}
+.after-logo-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-bottom: 48px;
+}
+.cyan-btn {
+  width: 311px;
+  height: 56px;
+  border: none;
+  background: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.blue-btn {
+  width: 311px;
+  height: 56px;
+  border: none;
+  background: #6174ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.456522px;
+  color: #4c545c;
+  margin-bottom: 16px;
+}
+.after-header-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-bottom: 65px;
+}
+.c-image {
+  width: 100%;
+  margin-bottom: 55px;
+}
+.small-div {
+  text-align: center;
+}
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+  margin-bottom: 10px;
+}
+.small-div-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-bottom: 46px;
+}
+.computer-image {
+  margin-bottom: 140px;
+}
+.after-computer-image-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-bottom: 65px;
+}
+.after-computer-image {
+  text-align: center;
+}
+.image-devices {
+  width: 100%;
+  margin-bottom: 130px;
+}
+.after-computer-img-div-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin: 0 10px 90px 10px;
+}
+.logos-3-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.logos {
+  margin-bottom: 45px;
+}
+.logos-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-bottom: 60px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  margin: 70px 0 170px 0;
+}
+.after-icons-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin-bottom: 46px;
+}
+.after-icons {
+  margin-bottom: 170px;
+  text-align: center;
+}
+footer {
+  padding-top: 60px;
+  background: #b4b7b85c;
+  mix-blend-mode: normal;
+}
+.footer-logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.footer-logo {
+  width: 55px;
+  height: 55px;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.135px;
+  color: #4c545c;
+}
+.items-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+  color: #4c545c;
+  margin-bottom: 20px;
+}
+.twitter,
+.instagram,
+.fb {
+  fill: #4c545c;
+}
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  padding-bottom: 55px;
+}
+/* this is desctop version */
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(./bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .container {
+    padding: 0 165px;
+  }
+  br {
+    display: none;
+  }
+  h1 {
+    font-size: 46px;
+    line-height: 58px;
+  }
+  .after-logo-p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .header-br {
+    display: block;
+  }
+  .cyan-btn {
+    margin-right: 16px;
+  }
+  .cyan-btn,
+  .blue-btn {
+    width: 227px;
+  }
+  .cyan-btn:hover {
+    cursor: pointer;
+  }
+  .blue-btn:hover {
+    cursor: pointer;
+    background: rgba(51, 60, 95, 0.414);
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+  .after-header-p {
+    width: 55%;
+    font-size: 18px;
+    line-height: 30px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .after-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .computer-image {
+    display: flex;
+    justify-content: space-between;
+  }
+  .c-image {
+    transform: translateX(-30%);
+  }
+  .small-div {
+    margin-top: 60px;
+    text-align: left;
+    transform: translateX(-70px);
+  }
+  .small-div-p {
+    text-align: left;
+    width: 350px;
+  }
+  .after-computer-image-p {
+    font-size: 18px;
+    line-height: 30px;
+    align-self: center;
+    width: 55%;
+    margin-bottom: 110px;
+  }
+  .access {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-devices {
+    width: 80%;
+  }
+  .three-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .logos-p {
+    width: 320px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .after-icons-p {
+    width: 50%;
+    align-self: center;
+  }
+  .after-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-parent {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .items {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 110px;
+  }
+  .items p:hover {
+    cursor: pointer;
+    color: #26bba4;
+  }
+
+  #contact:hover {
+    cursor: pointer;
+    color: #26bba4;
+  }
+  .twitter:hover,
+  .fb:hover,
+  .instagram:hover {
+    cursor: pointer;
+    fill: #26bba4;
+  }
+}
